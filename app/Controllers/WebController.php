@@ -10,4 +10,14 @@ class WebController extends BaseController
     {
         return view('beranda');
     }
+
+    public function kontak()
+    {
+        return view('view_kontak');
+    }
+
+    public function gallery()
+    {
+        return view('view_gallery');
+    }
 }
